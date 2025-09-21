@@ -4,6 +4,9 @@
 
   
 }
+.body {
+    background-color:  rgb(103, 91, 76);
+}
 #navigation {
     justify-content: center;
     align-items: center;
@@ -457,7 +460,9 @@ h3:hover{
     color: #e6e1ef;
 
 }
-
+footer{
+    background-color: rgb(52, 51, 50);
+}
 @media screen and (max-width: 1450px)
 {
     #profile-pic {
@@ -596,6 +601,7 @@ font-size: 0.95em}
    max-width: 700px;
    background-color:hsla(144, 45%, 23%, 0.373)
 }
+
 .navlists{
     display: flex;
     flex-direction: column;
