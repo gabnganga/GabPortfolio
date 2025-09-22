@@ -5,7 +5,7 @@
   
 }
 .body {
-    background-color:  rgb(103, 91, 76);
+    background-color:  rgba(154, 154, 154, 0.686);
 }
 #navigation {
     justify-content: center;
@@ -40,7 +40,7 @@
    
 }
 .navlists li a:hover {
-    color: #68e321;
+    color: hsl(29, 100%, 54%);
 }
 .burger{
     display: none;
@@ -60,32 +60,25 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 20px;
-    background-color: rgb(103, 91, 76);
-   
 }
 .name {
     font-size: 1.4em;
     font-weight: bold;
-    color: #121415;
+    color:hsl(257, 98%, 34%);
     text-align: center;
 
 }
-.name:hover {
-    color: #e6e1ef;
-}
+
 .more {
     font-size: 0.8em;
-    color: #010506;
+    color: hsl(253, 96%, 11%);
     text-align: center;
     justify-content:center;
     font-style: italic;
     font-weight: lighter;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.more:hover{
-    color: #e6e1ef;
-    
-}
+
    
     
 #profile-pic {
@@ -98,13 +91,13 @@
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #4c317e;
+    border: 3px solid hsl(257, 98%, 34%);
 }
 
 #about-me{
 justify-content: center;
 flex-direction: row;
-background-color: rgb(103, 91, 76);
+
 
 }
 
@@ -116,54 +109,43 @@ background-color: rgb(103, 91, 76);
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 0px;
+text-wrap: balance;
+}
 
-}
-#about-me p:hover{
-    text-decoration: underline;
-   text-wrap: balance;
-}
 
 h2{
     text-align: center;
     color: rgb(2, 6, 2);
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-style: italic;
-    background-color: rgb(103, 91, 76);
-}
-h2:hover{
-    color: #e6e1ef;
+    margin-top: 40px;
 }
 
 #projects{
-    background-color: rgb(103, 91, 76);
-  gap: 5px;
+ margin: 50px;
+ display: flex;
+  gap: 30px;
 flex-direction: column;
+margin-top: 10px;
 }
-
-
-
-
 
 
 .TEACH2GIVE{
     text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color: rgb(219, 208, 208);
+    color: white;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 50px;
    border: 2px solid #76737a;
   
-   background-color:rgb(42, 40, 40)
+   background-color: rgb(52, 51, 50);
 
 
 }
-.TEACH2GIVE:hover{
-    background-color: rgb(59, 31, 3);
-color: rgb(101, 98, 109) ;
-}
+
 
     
 
@@ -171,79 +153,69 @@ color: rgb(101, 98, 109) ;
     text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color: rgb(219, 208, 208);
+    color: white;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 50px;
     border: 2px solid #76737a;
    
-   background-color:rgb(42, 40, 40)
+   background-color: rgb(52, 51, 50);
 }
-.millenium:hover{
-    background-color: rgb(59, 31, 3);
-color: rgb(101, 98, 109) ;}
+
 
 .seo{
     text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color: rgb(219, 208, 208);
+    color: white;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 50px;
       border: 2px solid #76737a;
    
-   background-color:rgb(42, 40, 40)
+   background-color: rgb(52, 51, 50);
 }
-.seo:hover{
-    background-color: rgb(59, 31, 3);
-    color: rgb(101, 98, 109);
-}
+
 
 .cybersecurity{
     text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color:rgb(219, 208, 208);
+    color:white;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 50px;
      border: 2px solid #76737a;
    
-   background-color:rgb(42, 40, 40)
+   background-color: rgb(52, 51, 50);
 }
-.cybersecurity:hover{
-    background-color: rgb(59, 31, 3);
-    color: rgb(101, 98, 109);
-}
+
+
 .dataanalytics{
     text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color:rgb(219, 208, 208);
+    color:white;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 50px;
     border: 2px solid #76737a;
-   background-color:rgb(42, 40, 40)
+   background-color: rgb(52, 51, 50)
 }
-.dataanalytics:hover{
-    background-color: rgb(59, 31, 3);
-    color: rgb(101, 98, 109);
-}
+
 .hd{
     font-weight: bold;
     font-size: 1.4em;
-    color: #e6e1ef;
+    color: hsl(29, 100%, 54%);
 }
 
 #experience{
-    background-color: rgb(103, 91, 76);
-    display: flex;
+        display: flex;
     flex-wrap: wrap;
   gap: 15px ;
   flex-direction:column;
   align-items: center;
+  margin-top: 20px;
 }
 
   .teach2{
@@ -251,59 +223,51 @@ color: rgb(101, 98, 109) ;}
     text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color: rgb(12, 12, 12);
+    color: white;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 500px;
    border: 2px solid #434137e0;
    max-width: 700px;
-   background-color:hsla(144, 45%, 23%, 0.373)
-}
-
-.teach2:hover{
-        background-color: rgb(31, 32, 32);
-    color: rgb(225, 221, 235);
+   background-color:hsl(253, 96%, 11%);
 }
 
 .KCB{
     text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color: rgb(12, 12, 12);
+    color: white;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 500px;
    border: 2px solid #434137e0;
    max-width: 700px;
-   background-color:hsla(144, 45%, 23%, 0.373)
+   background-color:hsl(253, 96%, 11%)
 }
-.KCB:hover{
-    background-color: rgb(31, 32, 32);
-    color: rgb(225, 221, 235);
-}
+
 #skills{
-       background-color: rgb(103, 91, 76);
-    display: flex;
+        display: flex;
     flex-wrap: wrap;
   gap: 15px ;
   flex-direction:column;
   align-items: center;
+  margin-top: 20px;
 }
 #skills div{
-        background-color: rgb(103, 91, 76);
-    display: flex;
+           display: flex;
     flex-wrap: wrap;
   gap: 15px ;
   flex-direction:row;
   align-items:center;
   justify-content: space-evenly;
+  margin-bottom: 0px;
 
 }
 .s p{
      text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color: rgb(12, 12, 12);
+    color: black;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 500px;
@@ -312,24 +276,18 @@ color: rgb(101, 98, 109) ;}
    background-color:hsla(190, 63%, 14%, 0.373)
 
 }
-.s p:hover{
-    background-color: hsla(257, 70%, 35%, 0.373);
 
-}
 .y p{
      text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color: rgb(12, 12, 12);
+    color:white;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 500px;
-   border: 2px solid #251c4ae0;
+   
    max-width: 200px;
-   background-color:hsla(257, 70%, 35%, 0.373)
-}
-.y p:hover{
-    background-color:hsla(190, 63%, 14%, 0.373)
+   background-color: rgb(52, 51, 50);
 }
 
 
@@ -343,8 +301,7 @@ h4:hover{
     color: hsla(0, 0%, 5%, 0.973);
 }
 #certification{
-        background-color: rgb(103, 91, 76);
-    display: flex;
+           display: flex;
     flex-wrap: wrap;
   gap: 15px ;
   flex-direction:column;
@@ -352,8 +309,7 @@ h4:hover{
 
 }
 #certification div{
-      background-color: rgb(103, 91, 76);
-    display: flex;
+        display: flex;
     flex-wrap: wrap;
   gap: 15px ;
   flex-direction:row;
@@ -365,69 +321,58 @@ h4:hover{
      text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color: rgb(12, 12, 12);
+    color:  hsl(29, 100%, 54%);
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 30px;
    border: 0px solid hsla(258, 21%, 16%, 0.878);
    max-width: 200px;
-   background-color:hsla(11, 35%, 21%, 0.373)
+   background-color: rgb(52, 51, 50);
 
 }
-.tech p:hover{
-   background-color:hsla(189, 73%, 33%, 0.373)
-}  
+
 
 .digital p{
      text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color: rgb(12, 12, 12);
+    color: hsl(257, 98%, 34%);
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 30px;
    border: 0px solid hsla(255, 33%, 2%, 0.878);
    max-width: 200px;
-   background-color:hsla(257, 20%, 14%, 0.373)
-}
-.digital p:hover{
-     background-color:hsla(246, 89%, 57%, 0.373)
+   background-color:hsla(190, 63%, 14%, 0.373)
 
 }
 .policy p{
      text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color: rgb(12, 12, 12);
+    color:hsl(29, 100%, 54%);
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 30px;
    border: 0px solid #2b2e2de0;
    max-width: 200px;
-   background-color:#0c58325f
+   background-color:rgb(52, 51, 50);
    
-}
-.policy p:hover{
-     background-color:rgba(93, 91, 89, 0.373)
 }
 .leadership p{
      text-align: center;
     padding: 10px 20px;
     font-size: 1.1em;
-    color: rgb(12, 12, 12);
+    color: hsl(257, 98%, 34%);
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    border-radius: 30px;
    border: 0px solid #251c4ae0;
    max-width: 200px;
-   background-color:hsla(256, 56%, 15%, 0.373)
-}
-.leadership p:hover{
-     background-color:lab(40.57% 3.2 -42.92 / 0.373)
+   background-color:hsla(190, 63%, 14%, 0.373)
 
 }
+
 #contacts{
-    background-color:rgb(52, 51, 50);
      display: flex;
     flex-direction: row;
     gap: 80px;
@@ -444,24 +389,28 @@ h4:hover{
 .finale{
     justify-content: center;
     align-items: center;
-    background-color:  rgb(52, 51, 50);
-    display: flex;
+       display: flex;
     text-align: center;
+   
+    
 }
+.finale p{
+font-style: italic;
+
+}
+
+
 h3{    text-align: center;
     color: rgb(2, 6, 2);
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-style: italic;
-    background-color: rgb(52, 51, 50);
+   
 
 }
-h3:hover{
-    color: #e6e1ef;
 
-}
 footer{
-    background-color: rgb(52, 51, 50);
+    background-color: rgb(96, 95, 94);
 }
 @media screen and (max-width: 1450px)
 {
